@@ -1,5 +1,12 @@
 <html>
+<head>
+    <title>Producer</title>
+</head>
 <body>
-<h2>Hello World!</h2>
+<form action="produce" method="post">
+    <p>Enter your message:</p>
+    <input type="text" name="message">
+    <input type="submit" value="SEND">
+</form>
 </body>
 </html>
